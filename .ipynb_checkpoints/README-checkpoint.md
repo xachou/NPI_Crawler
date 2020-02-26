@@ -3,7 +3,10 @@
 ## Requirements
 1. NPI_crawler uses Chrome as the browser for crawling (i.e.,web driver)
 2. v. Chrome >= 80.0
+3. The input file type is a txt file with delimiter ',' 
+4. The output database by default saved in the directory of crawler
 
 ## Functionality of this crawler 
-1. This crawler allow users to resume crawling from the last crawling
-2. This crawler utilizes sqlite as database
+1. This crawler use web driver to submit npi id to target website, and scrape/parse data from the html. 
+2. This crawler allow users to resume crawling from the last crawling
+3. This crawler utilizes sqlite3 as database
