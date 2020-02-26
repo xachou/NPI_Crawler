@@ -3,6 +3,7 @@
 ## Requirements
 1. NPI_crawler uses Chrome as the browser for crawling (i.e.,web driver)
 2. v. Chrome >= 80.0
+3. If your Chrome's version is other than 80.0, please download the [webdriver] (https://chromedriver.chromium.org/downloads) associated with your current chrome version.
 3. The input file type is a txt file with delimiter ',' 
 4. The output database by default saved in the directory of crawler
 
